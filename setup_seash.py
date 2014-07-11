@@ -39,27 +39,27 @@ folder or check-out the repositories in current working directories
 """    
 pr = subprocess.Popen( "/usr/bin/git clone https://github.com/SeattleTestbed/seattlelib_v2" , cwd = os.getcwd(), shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
 (out, error) = pr.communicate()
-print str(out)
+print str("Checking out seattlelib_v2")
 
 pr1 = subprocess.Popen( "/usr/bin/git clone https://github.com/SeattleTestbed/clearinghouse" , cwd = os.getcwd(), shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
 (out, error) = pr1.communicate()
-print str(out)
+print str("Checking out clearinghouse")
 
 pr2 = subprocess.Popen( "/usr/bin/git clone https://github.com/SeattleTestbed/portability" , cwd = os.getcwd(), shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
 (out, error) = pr2.communicate()
-print str(out)
+print str("Checking out portability")
 
 pr3 = subprocess.Popen( "/usr/bin/git clone https://github.com/SeattleTestbed/repy_v2" , cwd = os.getcwd(), shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
 (out, error) = pr3.communicate()
-print str(out)
+print str("Checking out repy_v2")
 
 pr4 = subprocess.Popen( "/usr/bin/git clone https://github.com/SeattleTestbed/repy_v1" , cwd = os.getcwd(), shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
 (out, error) = pr4.communicate()
-print str(out)
+print str("Checking out repy_v1")
 
 pr5 = subprocess.Popen( "/usr/bin/git clone https://github.com/SeattleTestbed/dist -b git-aware-buildscripts" , cwd = os.getcwd(), shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
 (out, error) = pr5.communicate()
-print str(out)
+print str("Checking out dist")
 
 
 

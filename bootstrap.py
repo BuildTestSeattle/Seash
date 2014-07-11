@@ -293,7 +293,7 @@ def main():
   
 
   # The license must be included in anything we distribute.
-  copy_to_target("dist/LICENSE.TXT", target_dir)
+  copy_to_target("dist/LICENSE.txt", target_dir)
 
   if repytest:
     # Only copy the tests if they were requested.
